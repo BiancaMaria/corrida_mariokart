@@ -15,7 +15,7 @@
         PONTOS:0,
     };
 
-    async function rollDice() {
+    async function rollDice() {//define os numeros dos dados a serem jogados, variando de 1 a 6
         return Math.floor(Math.random() * 6) + 1;
     }
 
