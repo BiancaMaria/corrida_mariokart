@@ -25,6 +25,7 @@
         console.log(`${characterNome} rolou o dado de número: ${diceResult} + ${attribute} = ${totalSkill} (${hability}) -> score: ${totalSkill}`)
     }
 
+    //declara o resultado final do vencedor da corrida
     async function declareWinner(character1, character2) {
         console.log("\nResultado final:")
         console.log(`${character1.NOME}: ${character1.PONTOS} ponto(s)`) 
