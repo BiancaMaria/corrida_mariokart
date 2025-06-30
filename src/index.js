@@ -46,7 +46,7 @@
             let block = await getRandomBlock();//sorteio da pista
             console.log(`Bloco: ${block}`)
 
-            let diceResult1 = await rollDice();
+            let diceResult1 = await rollDice();//retorna o número que foi sorteado pelo dado
             let diceResult2 = await rollDice();
 
             let totalSkill1 = 0;
