@@ -38,6 +38,7 @@
         }
     }
 
+    //define as rodadas a serem jogadas
     async function playRaceEngine(character1, character2) {
         for(let round = 1; round<=5; round++ ) {
             console.log(`\nRodada ${round}`)
