@@ -43,7 +43,7 @@
         for(let round = 1; round<=5; round++ ) {
             console.log(`\nRodada ${round}`)
             
-            let block = await getRandomBlock();
+            let block = await getRandomBlock();//sorteio da pista
             console.log(`Bloco: ${block}`)
 
             let diceResult1 = await rollDice();
