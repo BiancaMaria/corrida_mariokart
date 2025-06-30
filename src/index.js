@@ -31,13 +31,13 @@
         console.log(`${character1.NOME}: ${character1.PONTOS} ponto(s)`) 
         console.log(`${character2.NOME}: ${character2.PONTOS} ponto(s)`) 
 
-        if(character1.PONTOS > character2.PONTOS) {
+        //remoção das chaves para tornar o if mais sucinto
+        if(character1.PONTOS > character2.PONTOS) 
             console.log(`\n${character1.NOME} venceu a corrida!`)
-        } else if(character2.PONTOS > character1.PONTOS) {
+        else if(character2.PONTOS > character1.PONTOS) 
             console.log(`\n${character2.NOME} venceu a corrida!`)
-        }else {
-            console.log(`\nA corrida terminou em empate!`)
-        }
+        else 
+            console.log(`\nA corrida terminou em empate!`)       
     }
 
     //define as rodadas a serem jogadas
