@@ -112,7 +112,8 @@
                 }
             }
         }          
-
+    
+    //implementacao do sorteio aleatório da pista    
     async function getRandomBlock() {
         let random = Math.random()
         let result
