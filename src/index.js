@@ -1,3 +1,4 @@
+    //DEFINIÇÃO DOS OBJETOS PLAYER1 E PLAYER2 E SUAS PROPRIEDADES
     const player1 = {
         NOME: "Mário",
         VELOCIDADE: 4,
