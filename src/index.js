@@ -19,6 +19,7 @@
         return Math.floor(Math.random() * 6) + 1;
     }
 
+    //implementa o log de resultados do jogo
     async function logResult(characterNome, hability, diceResult, attribute, totalSkill) {
         totalSkill = diceResult + attribute;
         console.log(`${characterNome} rolou o dado de número: ${diceResult} + ${attribute} = ${totalSkill} (${hability}) -> score: ${totalSkill}`)
